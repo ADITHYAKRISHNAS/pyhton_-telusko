@@ -1,0 +1,58 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> x = 2
+>>> x + 3
+5
+>>> y = 3
+>>> x + y
+5
+>>> x = 9
+>>> x + y
+12
+>>> abc
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    abc
+NameError: name 'abc' is not defined
+>>> x + 10
+19
+>>> _ + y
+22
+>>> name = "Youtube"
+>>> name
+'Youtube'
+>>> name + ' rocks'
+'Youtube rocks'
+>>> name[0]
+'Y'
+>>> name[6]
+'e'
+>>> name[8]
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    name[8]
+IndexError: string index out of range
+>>> name[-1]
+'e'
+>>> name[-7]
+'Y'
+>>> name[0:2]
+'Yo'
+>>> name[1:4]
+'out'
+>>> name[:4]
+'Yout'
+>>> name[3:12]
+'tube'
+>>> name[0:3] = 'hr]
+SyntaxError: EOL while scanning string literal
+>>> name[0:3]
+'You'
+>>> name[0:3] = 'hr'
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    name[0:3] = 'hr'
+TypeError: 'str' object does not support item assignment
+>>> 'my ' + name[3:]
+'my tube'
+>>> 
