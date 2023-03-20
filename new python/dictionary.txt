@@ -1,0 +1,58 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> data = {1:'Navin',2:'Kiran',4:'Harsh'}
+>>> data
+{1: 'Navin', 2: 'Kiran', 4: 'Harsh'}
+>>> data[4]
+'Harsh'
+>>> data[1]
+'Navin'
+>>> data[3]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    data[3]
+KeyError: 3
+>>> data.get(1)
+'Navin'
+>>> data.get(3)
+>>> print(data.get(3))
+None
+>>> data.get(1,'Not found')
+'Navin'
+>>> data.get(3,'Not found')
+'Not found'
+>>> keys = ['Navin','Kiran','Harsh']
+>>> values = ['Python','java','JS']
+>>> data = zip(keys,values)
+>>> data
+<zip object at 0x000001F8ECC47040>
+>>> dict(data)
+{'Navin': 'Python', 'Kiran': 'java', 'Harsh': 'JS'}
+>>> data['kiran']
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    data['kiran']
+TypeError: 'zip' object is not subscriptable
+>>> data['Kiran']
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    data['Kiran']
+TypeError: 'zip' object is not subscriptable
+>>> data = dict(data)
+>>> data
+{}
+>>> dict(data)
+{}
+>>> data = {'Navin': 'Python', 'Kiran': 'java', 'Harsh': 'JS'}
+>>> data['Kiran']
+'java'
+>>> data['Monika'] = 'CS'
+>>> del data['Harsh']
+>>> data
+{'Navin': 'Python', 'Kiran': 'java', 'Monika': 'CS'}
+>>> prog = {'JS':'Atom','CS':'VS','Python':['Pycharm','Sublime'],'Java':{'JSE':'Netbeans','JEE':'Eclipse'}}
+>>> prog
+{'JS': 'Atom', 'CS': 'VS', 'Python': ['Pycharm', 'Sublime'], 'Java': {'JSE': 'Netbeans', 'JEE': 'Eclipse'}}
+>>> prog['Python'][1]
+'Sublime'
+>>> 
