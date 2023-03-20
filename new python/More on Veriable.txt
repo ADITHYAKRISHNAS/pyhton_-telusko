@@ -1,0 +1,39 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> num = 5
+>>> id(num)
+1927784655280
+>>> name = 'navin'
+>>> id(name)
+1927825931504
+>>> a = 10
+>>> b = a
+>>> a
+10
+>>> b
+10
+>>> id(a)
+1927784655440
+>>> id(b)
+1927784655440
+>>> id(10)
+1927784655440
+>>> k = 10
+>>> id(k)
+1927784655440
+>>> a = 9
+>>> id(a)
+1927784655408
+>>> id(b)
+1927784655440
+>>> k = a
+>>> id(k)
+1927784655408
+>>> b = 8
+>>> PI = 3.14
+>>> PI
+3.14
+>>> PI = 3.15
+>>> type(PI)
+<class 'float'>
+>>> 
