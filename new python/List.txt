@@ -1,0 +1,54 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> nums = [24,23,44,55]
+>>> numd
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    numd
+NameError: name 'numd' is not defined
+>>> nums
+[24, 23, 44, 55]
+>>> nums[0]
+24
+>>> numd[4]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    numd[4]
+NameError: name 'numd' is not defined
+>>> numd[2:]
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    numd[2:]
+NameError: name 'numd' is not defined
+>>> nums[2:]
+[44, 55]
+>>> names = ['navin','kiran','john']
+>>> names
+['navin', 'kiran', 'john']
+>>> values = [9.5,'Navin',25]
+>>> values
+[9.5, 'Navin', 25]
+>>> mil = [nums, names]
+>>> mil
+[[24, 23, 44, 55], ['navin', 'kiran', 'john']]
+>>> nums.append(45)
+>>> nums
+[24, 23, 44, 55, 45]
+>>> nums.insert(2,45)
+>>> nums
+[24, 23, 45, 44, 55, 45]
+>>> del nums[2:]
+>>> nums
+[24, 23]
+>>> nums.extend([34,43,56,43,23,4])
+>>> nums
+[24, 23, 34, 43, 56, 43, 23, 4]
+>>> min(nums)
+4
+>>> max(nums)
+56
+>>> nums.sort()
+>>> 
+>>> nums
+[4, 23, 23, 24, 34, 43, 43, 56]
+>>> 
