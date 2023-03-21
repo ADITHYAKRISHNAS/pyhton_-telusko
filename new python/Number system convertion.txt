@@ -1,0 +1,31 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> bin(25)
+'0b11001'
+>>> 0b0101
+5
+>>> oct(25)
+'0o31'
+>>> hex(25)
+'0x19'
+>>> Oxf
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    Oxf
+NameError: name 'Oxf' is not defined
+>>> 0xf
+15
+>>> x = 11001
+>>> 0bx
+SyntaxError: invalid binary literal
+>>> 0b+x
+SyntaxError: invalid binary literal
+>>> bin(21)
+'0b10101'
+>>> 0b110100
+52
+>>> 0b100001
+33
+>>> 0b1000001
+65
+>>> 
