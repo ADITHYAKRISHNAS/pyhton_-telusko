@@ -1,0 +1,68 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a = 5
+>>> b = 6
+>>> temp = a
+>>> a = b
+>>> b = temp
+>>> print(a)
+6
+>>> print(b)
+5
+>>> a  = a + b
+>>> b = a - b
+>>> a =  a - b
+>>> print(a) print(b)
+SyntaxError: invalid syntax
+>>> a,b = b,a
+>>> print(a)
+6
+>>> print(b)
+5
+>>> bin(11)
+'0b1011'
+>>> a = 5
+>>> b = 6
+>>> a ^ b
+3
+>>> a  = a ^ b
+>>> a
+3
+>>> b = a ^ b
+>>> b
+5
+>>> a = a ^ b
+>>> a
+6
+>>> a = 29
+>>> b = 21
+>>> c = a and
+SyntaxError: invalid syntax
+>>> print(a or b)
+29
+>>> print(a and b)
+21
+>>> print(a xor b)
+SyntaxError: invalid syntax
+>>> print( a ^ b)
+8
+>>> a = 25
+>>> b = 21
+>>> print(a or b)
+25
+>>> print(a and b)
+21
+>>> print(a ^ b)
+12
+>>> a = 6
+>>> b = 6
+>>> b = 7
+>>> c = 9
+>>> a,b,c = c,a,b
+>>> print(a)
+9
+>>> b
+6
+>>> c
+7
+>>> 
