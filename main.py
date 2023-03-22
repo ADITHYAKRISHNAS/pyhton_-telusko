@@ -1,16 +1,38 @@
-# This is a sample Python script.
+# x = 9
+# r = x % 2
+#
+#
+# if r == 0:
+#     print("even")
+#
+# if r == 1:
+#     print("odd")
+#
+# print("Bye")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+x = 8
+r = x % 2
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# if r == 0:
+#     print("even")
+#     if x > 5:
+#         print("Great")
+#     else:
+#         print("Not so great")
+#
+# else:
+#     print("odd")
+#
+# print("Bye")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+x = 4
+if x == 1:
+    print("One")
+elif x == 2:
+    print("Two")
+elif x == 3:
+    print("Three")
+elif x == 4:
+    print("Four")
